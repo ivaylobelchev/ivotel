@@ -1,0 +1,100 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Trebuchet MS;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background: linear-gradient(to top, #ffffff 0%, #eeeeee 100%);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  padding: 10px;
+  /*border-bottom: 1px solid #eee;*/
+  padding-left: 0px;
+}
+
+.navbar2{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  /*border-right: 2px solid black;
+  border-left: 2px solid black;*/
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #365ee0;
+  text-align: center;
+  padding: 22px 21px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: #9503CD;
+}
+
+/* Main content */
+.main {
+  margin-top: 70px; /* Add a top margin to avoid content overlay */
+  color: black;
+  padding: 1em;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ivotelHomeLogoBar{
+  height: 50px;
+  float: left;
+  margin-left: 0.5em;
+  margin-right: 1em;
+}
+
+.navbar3{
+  margin-left: 160px;
+}
+
+@media only screen and (max-width: 900px) {
+/* For smaller screens: */
+
+.main {
+  margin-top: 70px;
+  padding: 3%;
+  width: 94%;}
+
+.navbar2{
+  width: 98%;}
+
+.navbar a {
+  display: block;
+  text-align: center;
+  padding: 2px 21px;
+  font-size: 16px;
+  width: 100px;}
+
+}
+
+@media only screen and (max-width: 306px) {
+/* For phones: */
+.navbar3{
+  margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 453px) {
+.main {
+  margin-top: 130px; /* Add a top margin to avoid content overlay */}
+}
+
+@media only screen and (max-width: 289px) {
+.main {
+  margin-top: 185px; /* Add a top margin to avoid content overlay */}
+}
