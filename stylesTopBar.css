@@ -7,7 +7,7 @@ body{
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background: linear-gradient(to top, #ffffff 0%, #eeeeee 100%);
+  background: linear-gradient(to top, #fff 0%, #eee 100%);
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -25,7 +25,7 @@ body{
 }
 
 /* Links inside the navbar */
-.navbar a {
+.navbar3 a {
   float: left;
   display: block;
   color: #365ee0;
@@ -36,8 +36,8 @@ body{
 }
 
 /* Change background on mouse-over */
-.navbar a:hover {
-  background: #ddd;
+.navbar3  a:hover {
+  background: linear-gradient(to top, #ddd 0%, #eee 100%);
   color: #9503CD;
 }
 
