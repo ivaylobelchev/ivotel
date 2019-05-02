@@ -82,19 +82,19 @@ body{
 
 }
 
-/*@media only screen and (max-width: 306px) {
+/*@media only screen and (max-width: 306px) {*/
 /* For phones: */
-.navbar3{
+/*.navbar3{
   margin-left: 0px;
   }
-}
+}*/
 
-@media only screen and (max-width: 453px) {
+/*@media only screen and (max-width: 453px) {
 .main {
-  margin-top: 130px; /* Add a top margin to avoid content overlay */}
+  margin-top: 130px;*/ /* Add a top margin to avoid content overlay */ /*}
 }
 
 @media only screen and (max-width: 289px) {
 .main {
-  margin-top: 185px; /* Add a top margin to avoid content overlay */}
+  margin-top: 185px; */ /* Add a top margin to avoid content overlay */ /*}
 }*/
